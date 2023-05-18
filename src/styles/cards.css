@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 80px;   
+  }
+  
+  label {
+    color: #4a3aff;
+  }
+  
+  label:hover {
+    cursor: pointer;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -ms-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    
+  }
+  
+   input[type="checkbox"]:checked  {
+    border: solid 1px #4a3aff;
+  }
+
+
+.input-container:hover {
+    outline: solid 2px #4a3aff;
+}
