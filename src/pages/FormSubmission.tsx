@@ -1,7 +1,11 @@
-
 import {CgCheckO} from "react-icons/cg"
 
 const FormSubmission = ({handleClick, currentStep}) => {
+
+  const handleSubmit = () => {
+    console.log('form submitted');
+    
+  }
 
   return (
     <>
@@ -13,7 +17,7 @@ const FormSubmission = ({handleClick, currentStep}) => {
       <p className="pl-5 pr-5 mb-5 text-gray-400 max-w-[40ch]">Please review all the information you previously typed in the past steps and if all is okay, submit your message to receive a project quote in 24 - 48 hours</p>
     </div>
     <div className="flex justify-center">
-      <button className="primary">Submit</button>
+      <button className="primary" onClick={handleSubmit} >Submit</button>
     </div>
     <div className="flex justify-start mt-16">
       <button 

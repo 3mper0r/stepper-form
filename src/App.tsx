@@ -1,4 +1,3 @@
-
 import Budget from './pages/Budget'
 import ContactDetails from './pages/ContactDetails'
 import OurServices from './pages/OurServices'
@@ -34,6 +33,7 @@ function App() {
     }
   };
 
+  
   const handleClick = (direction: string) => {
     let newStep = currentStep;
 
